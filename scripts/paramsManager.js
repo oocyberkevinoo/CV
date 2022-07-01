@@ -6,9 +6,10 @@ console.log(urlString);
 const urlParams = new URLSearchParams(urlString);
 
 // Langue du site
-lang = urlParams.get('lang');
+lang = getCookie("lang");
 console.log(lang);
 if(lang == null){ lang = "FR";}
+
 
 // Page demandée
 const loadedPage = urlParams.get('page');

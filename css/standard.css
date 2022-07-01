@@ -3,6 +3,10 @@ body {
 	color: white;
 }
 
+div#page {
+	padding-left: 15px;
+}
+
 div#header {
     text-align: center;
     padding: 5px;
@@ -16,7 +20,8 @@ div#menu h5{
  padding-left: 5px;
  margin: 0px;
  margin-top: 25px;
- color: lightgrey;
+ font-style: italic;
+ /*color: lightgrey;*/
 }
 
 div#footer {
