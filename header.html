@@ -8,8 +8,12 @@
 </div>
 
 <script>
-if(lang == "EN")
+switch(lang){
+	case "EN":
 	document.getElementById("headerFR").innerHTML="";
-else
+	break;
+	default:
 	document.getElementById("headerEN").innerHTML="";
+	break;
+}
 </script>
