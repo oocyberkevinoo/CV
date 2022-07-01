@@ -14,6 +14,7 @@ function toggleMenu(element){
 function showMenu(element){
 	lang = getCookie("lang");
 	val = getCookie("menu-"+lang+element);
+
 	
 	if(val == "true"){
 		if(element == "softwares"){
@@ -41,7 +42,7 @@ function showMenu(element){
 		"<a href='./?page=hardware/3'>- jeu 3</a>";
 		}	
 	}
-	else if(val == "" || val == "false")
+	else if(val == "" || val == "false" || val == null)
 			document.getElementById("menu-"+lang+element).innerHTML="";
 
 	
