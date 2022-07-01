@@ -1,0 +1,26 @@
+body {
+	background-color: grey;
+	color: white;
+}
+
+div#header {
+    text-align: center;
+    padding: 5px;
+    background: darkslategrey;
+}
+
+div#menu h4{
+ text-align: center;
+}
+div#menu h5{
+ padding-left: 5px;
+ margin: 0px;
+ margin-top: 25px;
+ color: lightgrey;
+}
+
+div#footer {
+    text-align: center;
+    padding: 5px;
+    background: darkslategrey;
+}
