@@ -29,3 +29,15 @@ div#footer {
     padding: 5px;
     background: darkslategrey;
 }
+
+.w3-sidenav a{
+    border-color: black;
+    border-width: thin;
+    border-left-style: none;
+    border-right-style: none;
+    border-top-style: none;
+	border-bottom-style: solid;
+}
+.w3-opennav{
+	margin: 47%;
+}

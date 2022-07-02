@@ -2,12 +2,12 @@
 <script>showMenu('games');showMenu('softwares');showMenu('vrar');showMenu('hardwares');showLang()</script>
 <nav class="w3-sidenav w3-collapse w3-theme-d1 w3-card-2 w3-animate-left" style="width:200px">
 	<div id="menuFR">
-		<h4>MENU</h4>
+		<h4 class="w3-theme-d2">MENU</h4>
 		<a href="#" onclick="w3_close()" class="w3-closenav w3-hide-large" style="font-size: 150%; text-align: center; padding-bottom: 10%">Fermer &times;</a>
 		<a href="./">Accueil</a>
-		<a href="./?page=CV">CV</a>
+		<a href="./?page=profile">CV / Profile</a>
 		
-		<h5>Portfolio</h5>
+		<h5 class="w3-theme-d2">Portfolio</h5>
 		<a onClick="toggleMenu('softwares')" href="#">Logiciels</a>
 		<div id="menu-FRsoftwares"></div>
 		<a onClick="toggleMenu('games')" href="#">Jeux</a>
@@ -17,23 +17,29 @@
 		<a onClick="toggleMenu('hardwares')" href="#">Matériels</a>
 		<div id="menu-FRhardwares"></div>
 		
-		<h4>---</h4>
-		<h5>Thèmes</h5>
+		<h4></h4>
+		<a href="./?page=about">Contacts / à propos...</a>
+		
+		<h4></h4>
+		<h5 class="w3-theme-d2">Thèmes</h5>
 		<a onclick="updateTheme('Dark')" href="#">Dark</a>
 		<a onclick="updateTheme('Light')" href="#">Light</a>
 		<a onclick="updateTheme('Blue')" href="#">Blue</a>
 		
-		<h5>Langage</h5>
+		<h5 class="w3-theme-d2">Langage</h5>
 		<a onClick="updateLang('FR')" href="#">Français</a>
 		<a onClick="updateLang('EN')" href="#">Anglais</a>
+		
+		<h5 class="w3-theme-d2">DEBUG</h5>
+		<a href="./?page=debug_videos">Videos</a>
 	</div>
 	<div id="menuEN">
-		<h4>MENU</h4>
+		<h4 class="w3-theme-d2">MENU</h4>
 		<a href="#" onclick="w3_close()" class="w3-closenav w3-hide-large" style="font-size: 150%; text-align: center; padding-bottom: 10%">Close &times;</a>
 		<a href="./">Home</a>
 		<a href="./?page=CV">CV</a>
 		
-		<h5>Portfolio</h5>
+		<h5 class="w3-theme-d2">Portfolio</h5>
 		<a onClick="toggleMenu('softwares')" href="#">Softwares</a>
 		<div id="menu-ENsoftwares"></div>
 		<a onClick="toggleMenu('games')" href="#">Games</a>
@@ -44,12 +50,12 @@
 		<div id="menu-ENhardwares"></div>
 		
 		<h4>---</h4>
-		<h5>Themes</h5>
+		<h5 class="w3-theme-d2">Themes</h5>
 		<a onclick="updateTheme('Dark')" href="#">Dark</a>
 		<a onclick="updateTheme('Light')" href="#">Light</a>
 		<a onclick="updateTheme('Blue')" href="#">Blue</a>
 		
-		<h5>Language</h5>
+		<h5 class="w3-theme-d2">Language</h5>
 		<a onClick="updateLang('FR')" href="#">French</a>
 		<a onClick="updateLang('EN')" href="#">English</a>
 	</div>

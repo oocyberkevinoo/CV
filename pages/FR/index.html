@@ -1,1 +1,122 @@
-<p>Page d'accueil</p>
+<div class="w3-container" style="display: block">
+<div class="w3-theme-l1" style="text-align: center">
+<h2 class="w3-theme-l2">Présentation</h2>
+<p>bla bla bla
+<br />bla bla bla</p>
+<p>bla bla bla</p>
+<p>bla bla bla</p>
+</div>
+</div>
+
+
+<div class="w3-container w3-twothird" style="display: block">
+<div class="w3-theme-l1" style="text-align: center">
+<h2 class="w3-theme-l2">Informations</h2>
+<p>bla bla bla
+<br />bla bla bla</p>
+<p>bla bla bla</p>
+<p>bla bla bla</p>
+<p>bla bla bla
+<br />bla bla bla</p>
+<p>bla bla bla</p>
+<p>bla bla bla</p>
+</div>
+</div>
+
+<div class="w3-container w3-third" style="display: block">
+<div class="w3-theme-l1" style="text-align: center">
+<h2 class="w3-theme-l2">Image/Vidéo</h2>
+<div class="w3-display-container">
+	<video width="100%" height="100%" autoplay muted controls loop>
+	  <source src="files/videos/hologram.mp4" type="video/mp4">
+	Vidéo non supportée...
+	</video>
+	<div class="w3-padding w3-display-topleft"></div>
+    <div class="w3-padding w3-display-topright"></div>
+    <div class="w3-padding w3-display-topmiddle w3-xxlarge w3-panel w3-black w3-opacity">Vidéo Centre</div>
+	<div class="w3-padding w3-display-topmiddle w3-xxlarge">Vidéo Centre</div>
+	<div class="w3-padding w3-display-middle"></div>
+  </div>
+</div>
+</div>
+
+<div class="w3-container w3-third" style="display: block">
+<div class="w3-theme-l1" style="text-align: center">
+<h2 class="w3-theme-l2">Image/Vidéo</h2>
+<div class="w3-content" style="max-width:620px">
+  <img class="mySlides w3-animate-left" src="images/01.jpg" style="width:100%;display:none">
+  <img class="mySlides w3-animate-left" src="images/02.jpg" style="width:100%">
+  <img class="mySlides w3-animate-left" src="images/03.jpg" style="width:100%;display:none">
+  <img class="mySlides w3-animate-left" src="images/04.jpg" style="width:100%;display:none">
+
+  <div class="w3-row-padding w3-section">
+    <div class="w3-col s4">
+      <img class="demo w3-opacity w3-hover-opacity-off" src="images/01.jpg" style="width:100%;cursor:pointer" onclick="currentDiv(1)">
+    </div>
+    <div class="w3-col s4">
+      <img class="demo w3-opacity w3-hover-opacity-off" src="images/02.jpg" style="width:100%;cursor:pointer" onclick="currentDiv(2)">
+    </div>
+    <div class="w3-col s4">
+      <img class="demo w3-opacity w3-hover-opacity-off" src="images/03.jpg" style="width:100%;cursor:pointer" onclick="currentDiv(3)">
+    </div>
+	<div class="w3-col s4">
+      <img class="demo w3-opacity w3-hover-opacity-off" src="images/04.jpg" style="width:100%;cursor:pointer" onclick="currentDiv(4)">
+    </div>
+  </div>
+  <br>
+</div>
+</div>
+</div>
+
+<div class="w3-container w3-twothird" style="display: block">
+<div class="w3-theme-l1" style="text-align: center">
+<h2 class="w3-theme-l2">Informations</h2>
+<p>bla bla bla
+<br />bla bla bla</p>
+<p>bla bla bla</p>
+<p>bla bla bla</p>
+</div>
+</div>
+
+<div class="w3-container w3-twothird" style="display: block">
+<div class="w3-theme-l1" style="text-align: center">
+<h2 class="w3-theme-l2">Informations</h2>
+<p>bla bla bla
+<br />bla bla bla</p>
+<p>bla bla bla</p>
+<p>bla bla bla</p>
+</div>
+</div>
+
+<div class="w3-container w3-twothird" style="display: block">
+<div class="w3-theme-l1" style="text-align: center">
+<h2 class="w3-theme-l2">Informations</h2>
+<p>bla bla bla
+<br />bla bla bla</p>
+<p>bla bla bla</p>
+<p>bla bla bla</p>
+</div>
+</div>
+
+
+<script>
+function currentDiv(n) {
+  showDivs(slideIndex = n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" w3-opacity-off", "");
+  }
+  x[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " w3-opacity-off";
+}
+</script>
