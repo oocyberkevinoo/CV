@@ -13,6 +13,10 @@ div#header {
     background: darkslategrey;
 }
 
+div#menu{
+	z-index: 5;
+}
+
 div#menu h4{
  text-align: center;
 }
@@ -24,10 +28,24 @@ div#menu h5{
  /*color: lightgrey;*/
 }
 
-div#footer {
+#footer {
     text-align: center;
     padding: 5px;
     background: darkslategrey;
+	position: absolute;
+    width: -webkit-fill-available;
+    bottom: -30px;
+}
+
+div#background {
+    /* width: fit-content; */
+    position: fixed;
+    height: 100%;
+	mix-blend-mode: soft-light;
+    /*mix-blend-mode: color-dodge;*/
+    /* width: auto; */
+    display: flex;
+	z-index: -5;
 }
 
 .w3-sidenav a{
@@ -40,4 +58,24 @@ div#footer {
 }
 .w3-opennav{
 	margin: 47%;
+}
+.w3-main{
+	position: relative;
+	min-height: 100vh;
+}
+.socialLinks{
+	display: flex;
+}
+.socialLinks a {
+    margin-top: 3px;
+    /* margin-left: -13px; */
+    width: -webkit-fill-available;
+    padding: initial;
+    text-align: center;
+}
+.socialLinks img{
+	height: 36px;
+	mix-blend-mode: difference;
+	margin-top: 1px;
+	margin-bottom: 1px;
 }
