@@ -23,9 +23,9 @@ function showMenu(element){
 				case "softwares":
 				document.getElementById("menu-"+lang+element).innerHTML= "<div class='w3-animate-left w3-theme-d2'><a href='./?page=software/index'>- Présentation Globale</a>"+
 				"<a href='./?page=software/1'>- Editeur de musiques (Project Diva)</a>"+
-				"<a href='./?page=software/2'>- Convertisseur de format (Groove Coaster)</a>"+
-				"<a href='./?page=software/3'>- Génération de niveaux (Beat Saber / PPD)</a>"+
-				"<a href='./?page=software/4'>- Sonic Randomizer</a></div>";
+				"<a href='./?page=software/GrooveCoasterConverter'>- Convertisseur de format (Groove Coaster)</a>"+
+				"<a href='./?page=software/3'>- Convertisseur de niveaux (Beat Saber / PPD)</a>"+
+				"<a href='./?page=software/4'>- Sonic \"Randomizer\"</a></div>";
 				break;
 				case "games":
 				document.getElementById("menu-"+lang+element).innerHTML= "<div class='w3-animate-left w3-theme-d2'><a href='./?page=game/index'>- Présentation Globale</a>"+
