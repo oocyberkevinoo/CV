@@ -21,26 +21,26 @@ function showMenu(element){
 			
 			switch(element){
 				case "softwares":
-				document.getElementById("menu-"+lang+element).innerHTML= "<div class='w3-animate-left w3-theme-d4'><a href='./?page=software/index'>X- Présentation Globale</a>"+
-				"<a href='./?page=software/1'>X- Editeur de musiques (Project Diva)</a>"+
+				document.getElementById("menu-"+lang+element).innerHTML= "<div class='w3-animate-left w3-theme-d4'><!-- <a href='./?page=software/index'>X- Présentation Globale</a> -->"+
+				"<a href='./?page=software/megamixeditor'>X- Editeur de musiques (Project Diva)</a>"+
 				"<a href='./?page=software/GrooveCoasterConverter'>- Convertisseur de format (Groove Coaster)</a>"+
-				"<a href='./?page=software/3'>X- Convertisseur de niveaux (Beat Saber / PPD)</a>"+
+				"<a href='./?page=software/ppdToBeatSaber'>X- Convertisseur de niveaux (Beat Saber / PPD)</a>"+
 				"<a href='./?page=software/SonicRandomizer'>- Sonic \"Randomizer\"</a></div>";
 				break;
 				case "games":
-				document.getElementById("menu-"+lang+element).innerHTML= "<div class='w3-animate-left w3-theme-d4'><a href='./?page=game/index'>X- Présentation Globale</a>"+
-				"<a href='./?page=game/Platform'>- Plateformes Procédurales</a>"+
+				document.getElementById("menu-"+lang+element).innerHTML= "<div class='w3-animate-left w3-theme-d4'><!-- <a href='./?page=game/index'>X- Présentation Globale</a> -->"+
+				"<a href='./?page=game/Platform'>- Plateformes Procédurales</a>"/*+
 				"<a href='./?page=game/2'>X- jeu 2</a>"+
-				"<a href='./?page=game/3'>X- jeu 3</a></div>";
+				"<a href='./?page=game/3'>X- jeu 3</a></div>"*/;
 				break;
 				case "vrar":
-				document.getElementById("menu-"+lang+element).innerHTML= "<div class='w3-animate-left w3-theme-d4'><a href='./?page=vrar/index'>X- Présentation Globale</a>"+
+				document.getElementById("menu-"+lang+element).innerHTML= "<div class='w3-animate-left w3-theme-d4'><!-- <a href='./?page=vrar/index'>X- Présentation Globale</a> -->"+
 				"<a href='./?page=VR/hologram'>- Hologram VR Show</a>"+
-				"<a href='./?page=vrar/2'>X- Prototypes HandTracking</a>"+
+				"<a href='./?page=VR/handtracking'>X- Prototypes HandTracking</a>"+
 				"<a href='./?page=VR/CircuitVR'>- Circuit VR<br>(Coop à un casque)</a></div>";
 				break;
-				case "hardwares":
-				document.getElementById("menu-"+lang+element).innerHTML= "<div class='w3-animate-left w3-theme-d4'><a href='./?page=hardware/1'>X- Controlleur Arcade ARDUINO</a></div>";
+				case "hardware":
+				document.getElementById("menu-"+lang+element).innerHTML= "<div class='w3-animate-left w3-theme-d4'><a href='./?page=hardware/projectdiva_controller'>- Controlleur Arcade ARDUINO</a></div>";
 				break;
 			}
 		}
@@ -65,7 +65,7 @@ function showMenu(element){
 				"<a href='./?page=vrar/2'>- game 2</a>"+
 				"<a href='./?page=vrar/3'>- game 3</a></div>";
 				break;
-				case "hardwares":
+				case "hardware":
 				document.getElementById("menu-"+lang+element).innerHTML= "<div class='w3-animate-left w3-theme-d4'><a href='./?page=hardware/index'>- Global Presentation</a>"+
 				"<a href='./?page=hardware/1'>- game 1</a>"+
 				"<a href='./?page=hardware/2'>- game 2</a>"+
