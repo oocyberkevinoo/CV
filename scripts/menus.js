@@ -22,16 +22,16 @@ function showMenu(element){
 			switch(element){
 				case "softwares":
 				document.getElementById("menu-"+lang+element).innerHTML= "<div class='w3-animate-left w3-theme-d4'><!-- <a href='./?page=software/index'>X- Présentation Globale</a> -->"+
-				"<a href='./?page=software/megamixeditor'>X- Editeur de musiques (Project Diva)</a>"+
+				"<a href='./?page=software/megamixeditor'>- Editeur de musiques (Project Diva)</a>"+
 				"<a href='./?page=software/GrooveCoasterConverter'>- Convertisseur de format (Groove Coaster)</a>"+
 				"<a href='./?page=software/ppdToBeatSaber'>X- Convertisseur de niveaux (Beat Saber / PPD)</a>"+
 				"<a href='./?page=software/SonicRandomizer'>- Sonic \"Randomizer\"</a></div>";
 				break;
 				case "games":
 				document.getElementById("menu-"+lang+element).innerHTML= "<div class='w3-animate-left w3-theme-d4'><!-- <a href='./?page=game/index'>X- Présentation Globale</a> -->"+
-				"<a href='./?page=game/Platform'>- Plateformes Procédurales</a>"/*+
-				"<a href='./?page=game/2'>X- jeu 2</a>"+
-				"<a href='./?page=game/3'>X- jeu 3</a></div>"*/;
+				"<a href='./?page=game/Platform'>- Plateformes Procédurales</a>"+
+				"<a href='./?page=game/Center'>- Center of the World (Prototype jeu de plateforme)</a>"+
+				"<a href='./?page=game/JoysRythm'>- Joys Rythm (Prototype jeu de rythme)</a>";
 				break;
 				case "vrar":
 				document.getElementById("menu-"+lang+element).innerHTML= "<div class='w3-animate-left w3-theme-d4'><!-- <a href='./?page=vrar/index'>X- Présentation Globale</a> -->"+
