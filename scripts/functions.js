@@ -10,7 +10,7 @@ function w3_close() {
 function loadTheme() {
 	theme = getCookie("theme");
 	if(theme == ""){
-		theme = "Blue";
+		theme = "Dark";
 		setCookie("theme", theme, 366);
 	}
 	console.log(theme);
