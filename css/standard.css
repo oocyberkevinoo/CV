@@ -83,3 +83,35 @@ p
 {
 	margin: 6px;
 }
+
+@keyframes progress {
+  0% {
+    stroke-dasharray: 0 100;
+  }
+}
+.circle-svg {
+  display: block;
+  margin: 10px auto;
+  max-height: 115px;
+}
+.circle-svg text.svg_text {
+  text-align:center;
+  font-size:8px;
+  font-weight:bolder;
+}
+.circle-svg text.svg_percent {
+  text-align:center;
+  font-size:6px;
+}
+.circle-svg path.percent {
+  stroke: #White;
+  fill: none;
+  stroke-width: 2.8;
+  stroke-linecap: round;
+  animation: progress 1s ease-out forwards;
+}
+.circle-svg path.around {
+    stroke: #c4c4c4;
+    fill: none;
+    stroke-width: 2.8;
+}
