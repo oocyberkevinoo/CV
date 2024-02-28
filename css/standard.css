@@ -115,3 +115,6 @@ p
     fill: none;
     stroke-width: 2.8;
 }
+.clickable a{
+	cursor: pointer;
+}
