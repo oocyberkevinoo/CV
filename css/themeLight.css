@@ -17,3 +17,6 @@
 .w3-text-theme {color:#c5c5c5 !important}
 .w3-theme-border {border-color:#c5c5c5 !important}
 .w3-hover-theme:hover {color:#000 !important; background-color:#c5c5c5 !important}
+
+.circle-svg text {fill:#000000f7 !important}
+.circle-svg path.percent {stroke: #3491c2;}
