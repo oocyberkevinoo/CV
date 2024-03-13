@@ -14,6 +14,8 @@ Menu:
 
 PROJETS:
 
+	- Ajouter Transposition VR
+
 	Hologram VR Show:
 	- Mettre en avant des footage de la production pour illustrer le travail
 	
